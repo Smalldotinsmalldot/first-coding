@@ -1,0 +1,25 @@
+.shopping-main {
+  width: 100%;
+}
+
+.shopping-icon__box {
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+}
+
+.shopping-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shopping-icon img {
+  margin-top: 101px;
+  width: 30px;
+  height: 30px;
+}
+
+.shopping-text {
+  margin-top: 5px;
+}

@@ -1,0 +1,87 @@
+.friend-main {
+  margin-top: 101px;
+  padding: 0px 15px 60px 15px;
+  width: 100%;
+}
+
+#multi-profile {
+  margin-top: 20px;
+  padding: 10px 0px;
+  border-top: 1px solid var(--color-big);
+  display: flex;
+  justify-content: space-between;
+}
+
+#channel {
+  padding: 10px 0px;
+  border-top: 1px solid var(--color-big);
+  display: flex;
+  justify-content: space-between;
+}
+
+#friend {
+  padding: 10px 0px;
+  border-top: 1px solid var(--color-big);
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends-profile__info {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.the-party-has-just-begun {
+  display: flex;
+  border: 2px solid green;
+  border-radius: 20px;
+  width: 180px;
+  font-size: 13px;
+  justify-content: center;
+  padding: 3px;
+}
+
+.zombie {
+  display: flex;
+  border: 2px solid green;
+  border-radius: 20px;
+  width: 170px;
+  font-size: 13px;
+  justify-content: center;
+  padding: 3px;
+}
+
+.fa-play {
+  margin-left: 5px;
+}
+
+.friends-profile__info:hover,
+.friends-profile__info:hover .profile-info__text2,
+.friends-profile__info:hover .number {
+  color: var(--color-big);
+}
+
+.red-two {
+  width: 7px;
+  height: 7px;
+  background-color: peru;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 13px;
+}
+
+.bottom-bar__icon {
+  position: relative;
+}
+
+.red-three {
+  width: 7px;
+  height: 7px;
+  background-color: peru;
+  border-radius: 50%;
+  position: absolute;
+  right: -20px;
+  top: 3px;
+}

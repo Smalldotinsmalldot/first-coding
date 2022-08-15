@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+/* main-css */
+@import "main-css/index.css";
+@import "main-css/trap.css";
+@import "main-css/friend.css";
+@import "main-css/chat.css";
+@import "main-css/shopping.css";
+@import "main-css/more.css";
+@import "main-css/chat-screen.css";
+@import "main-css/setting.css";
+
+/* assi-css */
+@import "assistant-css/reset.css";
+@import "assistant-css/top-bar.css";
+@import "assistant-css/repetitive.css";
+@import "assistant-css/bottom-bar.css";
+@import "assistant-css/info-bar.css";
+@import "assistant-css/profile-info.css";
+@import "assistant-css/list.css";
+
+body {
+  color: white;
+  display: flex;
+  font-family: "Jua", sans-serif;
+  background-color: black;
+}
+
+.screen-size {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  z-index: 99;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen-size img {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 40px;
+}
+
+.screen-size span {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 750px) {
+  .screen-size {
+    display: flex;
+  }
+  body {
+    overflow: hidden;
+  }
+}

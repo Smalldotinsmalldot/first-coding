@@ -1,0 +1,120 @@
+body {
+  z-index: 0;
+}
+
+.profile-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-info__alien {
+  display: flex;
+  width: 100%;
+}
+
+.profile-info__img {
+  height: 75px;
+  width: 75px;
+  background-color: gray;
+  border-radius: 35%;
+}
+
+.profile-info__img img {
+  height: 75px;
+  width: 75px;
+}
+
+.profile-info__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  justify-content: space-evenly;
+  font-size: 23px;
+  width: 100%;
+}
+
+.profile-info__text1 {
+  display: flex;
+}
+
+.profile-info__text2 {
+  font-size: 15px;
+  color: gray;
+}
+
+/*----friend-----*/
+
+.friend-profile__info__img {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.friend-profile__info__img .friend-image {
+  width: 45px;
+  height: 45px;
+}
+
+/*----chat-----*/
+
+.chat-profile__info__text2 {
+  font-size: 18px;
+}
+
+.chat-profile__info__img {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+}
+
+.chat-profile__info__img > div > div {
+  width: 31px;
+  height: 31px;
+  background-color: var(--color);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-profile__info__img > div > div > img {
+  width: 27px;
+  height: 27px;
+}
+
+.friend-big__image__box:first-child {
+  margin-right: 3px;
+}
+
+.friend-big__image__box:first-child > .friend-image__box:first-child,
+.friend-big__image__box:last-child > .friend-image__box:first-child {
+  margin-bottom: 3px;
+}
+
+.chat-profile__info__img__another {
+  width: 65px;
+  height: 65px;
+}
+
+.chat-profile__info__img__another .friend-image {
+  width: 55px;
+  height: 55px;
+}
+
+.fixed-box {
+  background-color: black;
+}
+
+.profile-info__text1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time {
+  font-size: 15px;
+}

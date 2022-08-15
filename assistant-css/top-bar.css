@@ -1,0 +1,45 @@
+.top-bar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+  background-color: black;
+  z-index: 99;
+}
+
+.top-bar__text {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.top-bar__text:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.top-bar__text:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.top-bar__text:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-bar__text i {
+  font-size: 15px;
+}
+
+.top-bar__text:first-child i {
+  margin-left: 3px;
+}
+
+.top-bar__text:last-child i {
+  margin-left: 3px;
+}

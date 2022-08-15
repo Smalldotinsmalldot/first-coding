@@ -1,0 +1,179 @@
+.more-main {
+  width: 100%;
+  margin-top: 101px;
+}
+
+.wallet {
+  width: 100%;
+  height: 200px;
+  background-color: #b6ba99;
+  color: black;
+  padding: 0px 25px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.wallet-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wallet-text:first-child span:first-child {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.wallet-text:first-child span:first-child i {
+  color: var(--color);
+}
+
+.wallet-text:first-child span:last-child {
+  font-size: 20px;
+}
+
+.wallet-text:first-child span:last-child img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 2px;
+}
+
+.wallet-text:nth-child(2) {
+  width: 100%;
+  height: 40px;
+  background-color: #d4d8ae;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.wallet-text:nth-child(2) img {
+  width: 17px;
+  height: 17px;
+  padding: 0px 7px;
+}
+
+.wallet-text:nth-child(2) span {
+  font-size: 17px;
+}
+
+.wallet-text:nth-child(2) i {
+  font-size: 17px;
+  padding-right: 7px;
+}
+
+.wallet-text:nth-child(3) img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.wallet-text:nth-child(3) > span:first-child {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.wallet-text:nth-child(3) > span:last-child {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.wallet-text__money,
+.wallet-text__shopping {
+  display: flex;
+  width: 50%;
+  font-size: 20px;
+}
+
+.wallet-text__money {
+  justify-content: space-between;
+}
+
+.wallet-text__money div {
+  width: 16.66%;
+}
+
+.wallet-text__money div:first-child,
+.wallet-text__money div:nth-child(2) {
+  padding-right: 8.33%;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wallet-text__shopping {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wallet-text__shopping img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+#wallet-icon__box {
+  padding: 0px 15px;
+}
+
+#wallet-icon__box .shopping-icon {
+  width: 200px;
+  height: 80px;
+}
+
+#wallet-icon__box img {
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.outside-day {
+  width: 100%;
+  height: 200px;
+  margin-top: 40px;
+  margin-bottom: 101px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.outside-day > div {
+  width: 90%;
+  height: 200px;
+  margin: 0px 15px;
+  border-radius: 20px;
+  background-color: rgb(51, 51, 80);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.outside-day img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.outside-day > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.outside-day span {
+  font-size: 25px;
+  position: absolute;
+}
+
+.outside-day span:first-child {
+  bottom: 50px;
+  left: 20px;
+}
+
+.outside-day span:last-child {
+  bottom: 20px;
+  left: 20px;
+}
